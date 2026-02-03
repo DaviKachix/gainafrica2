@@ -1,0 +1,32 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: black; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: white; }
+      .foreground { fill: black; }
+    }
+  </style>
+  <g clip-path="url(#clip0_7960_43945)">
+    <rect class="background" width="180" height="180" rx="37" />
+    <!-- Replaced with GAiN logo -->
+    <rect width="180" height="180" fill="black"/>
+    <!-- G -->
+    <path d="M20 130V50H55V65H35V115H55V95H45V80H70V130H20Z" fill="white"/>
+    <!-- A -->
+    <path d="M75 130L95 50H115L135 130H115L112 115H98L95 130H75ZM102 100H108L105 75L102 100Z" fill="white"/>
+    <!-- i (stem) -->
+    <path d="M140 130V65H160V130H140Z" fill="white"/>
+    <!-- i (dot - red) -->
+    <circle cx="150" cy="45" r="12" fill="#C41E3A"/>
+    <!-- N -->
+    <path d="M75 130V50H95L110 90V50H130V130H110L95 90V130H75Z" fill="white" transform="translate(90, 0)"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_7960_43945">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
