@@ -4,10 +4,9 @@ export async function POST(req: NextRequest) {
   try {
     const data = await req.json();
 
-    // Here you can process the data, save to DB, or send email
+    // Process data, save to DB
     console.log("New Registration:", data);
 
-    // Example: simulate processing delay
     await new Promise(resolve => setTimeout(resolve, 1000));
 
     return NextResponse.json({ message: "Registration successful" }, { status: 200 });

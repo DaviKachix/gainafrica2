@@ -2,7 +2,7 @@
 
 import { HeroSection } from "@/components/hero-section";
 import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
+//import { SiteFooter } from "@/components/site-footer";
 import SiteAside from "@/components/site-aside";
 import WhoWhatSection from "@/components/WhoWhatSection";
 import { AnimatePresence, motion } from "framer-motion";
@@ -33,10 +33,10 @@ export default function Page() {
           transition={{ duration: 0.5 }}
           className="relative z-0"
         >
-          {/* Hero Section */}
+          
           <HeroSection />
 
-{/* About GAiN / OneVoice */}
+{/* About GAiN */}
 <section className="relative py-36 bg-gray-50 overflow-hidden">
   <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
     {/* Heading */}
@@ -121,10 +121,7 @@ export default function Page() {
   ))}
 </section>
 
-
-
-
-          {/* Who & What Section */}
+          {/* Who to attend & What Section */}
           <WhoWhatSection />
 
  {/* Registration Process */}
