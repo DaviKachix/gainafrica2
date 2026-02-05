@@ -45,19 +45,25 @@ export default defineSchema({
     category: v.string(),
   }).index("by_event", ["eventId"]),
 
+
   registrations: defineTable({
-    eventId: v.id("events"),
-    firstName: v.string(),
-    lastName: v.string(),
     email: v.string(),
-    phone: v.optional(v.string()),
+    firstName: v.string(),
+    middleName: v.optional(v.string()),
+    lastName: v.string(),
+    gender: v.string(),
+    nationality: v.string(),
+    africanCountry: v.optional(v.string()),
+    nonAfricanCountry: v.optional(v.string()),
+    profession: v.string(),
     organization: v.string(),
-    country: v.string(),
-    role: v.string(),
-    dietaryRequirements: v.optional(v.string()),
-    registeredAt: v.string(),
-    status: v.string(),
+    phone: v.string(),
+    foodPreference: v.string(),
+    ageGroup: v.string(),
+    otherInfo: v.optional(v.string()),
+    createdAt: v.number(),
+  
   })
-    .index("by_event", ["eventId"])
-    .index("by_email", ["email"]),
-})
+  
+  .index("by_email", ["email"]),
+});

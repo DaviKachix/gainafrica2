@@ -8,9 +8,12 @@
  * @module
  */
 
+import type * as client from "../client.js";
+import type * as client from "../client.js";
 import type * as events from "../events.js";
 import type * as presentations from "../presentations.js";
 import type * as presenters from "../presenters.js";
+import type * as register from "../register.js";
 import type * as registrations from "../registrations.js";
 import type * as resources from "../resources.js";
 
@@ -21,9 +24,12 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  client: typeof client;
+  client: typeof client;
   events: typeof events;
   presentations: typeof presentations;
   presenters: typeof presenters;
+  register: typeof register;
   registrations: typeof registrations;
   resources: typeof resources;
 }>;
